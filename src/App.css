@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 .App {
   text-align: center;
 }
@@ -6,7 +7,16 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.btn{
+  margin: 2px;;
+}
+.divbtn{
+  float: left;
+}
+.App h1{
+  font-family: 'Tilt Warp', cursive;
+  font-weight: 400;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +32,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-weight: 600;
 }
 
 .App-link {
